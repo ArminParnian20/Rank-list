@@ -67,7 +67,7 @@ section::before{
     padding:10px;
     z-index:10;
     border-radius:10px;
-    backdrop-filter:blur(25px);
+    backdrop-filter:blur(10px);
 }
 .box h3{
     color: #fff;
@@ -87,7 +87,7 @@ section::before{
 .box .list:hover{
     background:#fff;
     box-shadow:-15px 30px 50px rgba(0, 0, 0, 0.5);
-    transform: scale(1.15) translateX(30px) translateY(-15px);
+    transform: scale(1.15) translateX(30px) translateY(-5px);
     z-index:1000;
 }
 .box .list .imgBx{
